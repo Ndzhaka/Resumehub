@@ -1,5 +1,4 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
-  devIndicators: {
-    buildActivity: true, // or buildActivityPosition: 'bottom-right'
-  },
-};
+  output: 'standalone',
+}
